@@ -35,6 +35,7 @@ public class CustomCalculatorTest {
         customCalculator = new CustomCalculator();
         int result = customCalculator.multiply(5,9);
         /* 이곳에 테스트 코드를 작성하세요. */
+        assertTrue(result == 45);
         System.out.println("result :: " + result);
     }
 
@@ -44,6 +45,7 @@ public class CustomCalculatorTest {
         customCalculator = new CustomCalculator();
         int result = customCalculator.divide(25,5);
         /* 이곳에 테스트 코드를 작성하세요. */
+        assertTrue(result == 5);
         System.out.println("result :: " + result);
     }
 }
